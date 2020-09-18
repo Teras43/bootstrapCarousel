@@ -71,3 +71,25 @@
     }
     
 }
+
+.bodyContainer {
+    .imgContainer {
+        width: 1110px;
+        height: 625px;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: fill;
+            }
+
+        @media only screen and (max-width: 480px) {
+            width: 100vw;
+            height: 200px;
+        }
+    }
+
+    h1 {
+        color: $mainTextColor;
+    }
+}
