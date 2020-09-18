@@ -1,3 +1,73 @@
-
+.topContainer {
+  border: 3px solid #dfdfdf;
+  height: 200px;
+  background-color: rgba(26, 26, 26, 0.6);
+  overflow: hidden;
+}
+.topContainer a {
+  position: relative;
+  font-size: 30px;
+  color: #ffdf33;
+}
+.topContainer a:after {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  content: "";
+  width: 90%;
+  height: 2px;
+  background-color: gold;
+}
+@media only screen and (max-width: 375px) {
+  .topContainer a:after {
+    display: none;
+  }
+}
+.topContainer a:hover {
+  color: #b39700;
+}
+.topContainer .textAlignLeft {
+  padding-top: 70px;
+}
+@media only screen and (max-width: 493px) {
+  .topContainer .textAlignLeft {
+    text-align: left;
+    font-size: 20px;
+    padding: 8px 16px;
+  }
+}
+.topContainer .textAlignRight {
+  padding-top: 70px;
+}
+@media only screen and (max-width: 493px) {
+  .topContainer .textAlignRight {
+    text-align: right;
+    font-size: 20px;
+    padding: 8px 16px;
+  }
+}
+.topContainer .svgImg {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+.topContainer .svgImg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -25%;
+}
+@media only screen and (max-width: 991px) {
+  .topContainer .svgImg {
+    display: none;
+  }
+}
+@media only screen and (max-width: 522px) {
+  .topContainer {
+    height: 165px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
