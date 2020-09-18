@@ -1,3 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #141414;
+}
+body .pageContainer {
+  padding: 0;
+}
+
 .topContainer {
   border: 3px solid #dfdfdf;
   height: 200px;
@@ -68,6 +78,25 @@
     padding-top: 12px;
     padding-bottom: 12px;
   }
+}
+
+.bodyContainer .imgContainer {
+  width: 1110px;
+  height: 625px;
+}
+.bodyContainer .imgContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+@media only screen and (max-width: 480px) {
+  .bodyContainer .imgContainer {
+    width: 100vw;
+    height: 200px;
+  }
+}
+.bodyContainer h1 {
+  color: #f3f3f3;
 }
 
 /*# sourceMappingURL=styles.css.map */
