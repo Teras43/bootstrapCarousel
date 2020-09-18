@@ -1,5 +1,16 @@
 @import "colors";
 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: $mainBackgroundColor;
+
+    .pageContainer {
+        padding: 0;
+    }
+}
+
 .topContainer {
     border: 3px solid darken($mainTextColor, 8%);
     height: 200px;
