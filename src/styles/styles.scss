@@ -104,3 +104,14 @@ body {
         color: $mainTextColor;
     }
 }
+
+.card {
+    background-color: rgb(2, 2, 2);
+    color: $mainTextColor;
+
+    img {
+        width: 286px;
+        height: 200px;
+        object-fit: fill;
+    }
+}

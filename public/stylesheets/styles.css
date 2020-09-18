@@ -99,4 +99,14 @@ body .pageContainer {
   color: #f3f3f3;
 }
 
+.card {
+  background-color: #020202;
+  color: #f3f3f3;
+}
+.card img {
+  width: 286px;
+  height: 200px;
+  object-fit: fill;
+}
+
 /*# sourceMappingURL=styles.css.map */
