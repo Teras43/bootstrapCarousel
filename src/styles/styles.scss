@@ -9,6 +9,11 @@ body {
     .pageContainer {
         padding: 0;
     }
+
+    .modal-content {
+        background-color: $mainBackgroundColor;
+        color: $mainTextColor;
+    }
 }
 
 .topContainer {
